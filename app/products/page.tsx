@@ -1,7 +1,7 @@
-import { FC } from "react";
-import { PostList } from "./components/Post-list";
+import React, { FC } from "react";
+import { PostList } from "../components/Post-list";
 
-const Home: FC = () => {
+const page: FC = () => {
   return (
     <div className="bg-gray-200 p-12">
       <div className="flex justify-center my-4">
@@ -12,4 +12,4 @@ const Home: FC = () => {
   );
 };
 
-export default Home;
+export default page;
